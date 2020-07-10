@@ -1,0 +1,101 @@
+.header-image{
+    background: linear-gradient(to bottom, rgba(211, 102, 102, 0), rgba(192, 109, 41, 0.89)), url("food-Home.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: none;
+ 
+}
+#Logo{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    margin-left: 600px;
+    margin-top: 95px;
+}
+
+.heading{
+    margin-top: 65px;
+}
+
+h1{
+    color: antiquewhite;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+.selectors{
+    margin-left: 350px;
+}
+
+#location{
+    height: 60px;
+    width: 230px;
+    font-size: 20px;
+    border: none;
+    margin-left: -5px;
+}
+.icon-input{
+    height: 60px;
+    width: 400px;
+    font-size: 20px;
+    border: none;
+    border-radius: 0%;
+}
+
+.icon{
+    padding-left: 10px;
+}
+
+.quickSearchContainer{
+    margin-left: 100px;
+
+}
+
+.quickSearchHeading{
+    color: #041231;
+    font-size:20px;
+    line-height: 89px;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.quickSearch{
+    margin-top: -20px ;
+    font-size: 20px;
+    font-weight: normal;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: gray;
+    line-height: .01;
+    letter-spacing: normal;
+}
+
+.component{
+    box-shadow: 0 3px 6px black;
+    height: 150px;
+    width: 400px;
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.inner-component1{
+    width: 50%;
+    float: left;
+}
+
+
+.inner-component2{
+    width: 50%;
+    float: left;
+    margin-left: -35px;
+}
+
+.component-heading{
+    font-size: 20px;
+    font-weight: bolder;
+    
+}
+.component-subheading{
+    font-size: 15px;
+    
+}
