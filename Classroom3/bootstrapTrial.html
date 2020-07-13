@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Trial</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bootstrapTrial.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header" >
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand">Menu</a>
+                </div>
+    
+                <div class="collapse navbar-collapse" id="nav">
+                    <ul class="nav navbar-nav">
+                        <li><a >Home</a></li>
+                        <li><a >About</a></li>
+                        <li><a >Contact</a></li>
+                    </ul>
+    
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a><span class="glyphicon glyphicon-user"></span> Signup</a></li>
+                        <li style="font-size: 15px;"><a><i style="font-size: 15px;" class="fa fa-sign-in"></i> Login</a></li>
+                    </ul>
+                </div>
+    
+            </div>
+        </nav>
+
+
+        <div class="jumbotron">
+            <h1>Lorem Ipsum</h1>
+            <p>
+                What is Lorem Ipsum?
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+        </div>
+
+        <div class="row">
+            <div class="panel panel-primary col-md-6">
+                <div class="panel-heading">
+                    Halo
+                </div>
+                <div class="panel-body">
+
+                    <div class="input-group">
+                        <span class="input-group-addon">
+                            <i class="glyphicon glyphicon-search"></i>
+                        </span>
+                        <input type="text" class="form-control">
+                    </div>
+                    <br>
+                    <button class="btn btn-warning" data-toggle="modal" type="button" data-target="#modal">
+                        Open me
+                    </button>
+                    <div id="modal" class="modal fade" role="dialog">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times</button>
+                                    <h4>Hi there !!</h4>
+                                </div>
+    
+                                <div class="modal-body">
+                                    <p>enter your name</p>
+                                    <input type="text">
+                                </div>
+
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                    </p>
+                </div>
+            </div>
+
+
+
+
+            <div class="panel panel-success col-md-6">
+                <div class="panel-heading">
+                    Halo
+                </div>
+                <div class="panel-body">                    
+                    <br>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" 
+            data-toggle="dropdown" type="button">
+                Menu
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li>Continental</li>
+                <li>Chinese</li>
+                <li>Indian</li>
+            </ul>
+            <button class="btn btn-danger">Click Me</button>
+            <button class="btn btn-success">Click Me</button>
+            <button class="btn btn-warning">Click Me</button>
+            <button class="btn btn-info">Click Me</button>
+            <button class="btn">Click Me</button>
+        </div>
+        <br>
+        <img class="img-responsive" src="wp.jpg" alt="boo">            
+        <br>
+        <table class="table table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th>S.no</th>
+                    <th>Name</th>
+                    <th>Gender</th>
+                    <th>Age</th>
+                    <th>Nationality</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1.</td>
+                    <td>Aanoosh</td>
+                    <td>Female</td>
+                    <td>20</td>
+                    <td>Indian</td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td>George</td>
+                    <td>Male</td>
+                    <td>27</td>
+                    <td>American</td>
+                </tr>
+                <tr>
+                    <td>3.</td>
+                    <td>Kristie</td>
+                    <td>Female</td>
+                    <td>25</td>
+                    <td>Australia</td>
+                </tr>
+                <tr>
+                    <td>4.</td>
+                    <td>jimmy</td>
+                    <td>Male</td>
+                    <td>30</td>
+                    <td>Canadian</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="row">
+            <div class="blue col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                
+            </div>
+            <div class="violet col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                
+            </div>
+            <div class="pink col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                
+            </div>
+            <div class="red col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                
+            </div>
+            <div class="orange col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                
+            </div>
+            <div class="yellow col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                
+            </div>
+            <div class="green col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                
+            </div>
+            <div class="lightBlue col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        
+        <div class="well well-sm">
+            <h4> Well Small </h4>
+        </div>
+        <div class="well well-lg">
+            <h2> Well Large </h2>
+        </div>
+
+        <div class="alert alert-danger">
+            <strong>Alert Danger!!</strong>
+            <p>Danger danger danger danger!!</p>
+        </div>
+        <div class="alert alert-success">
+            <strong>Alert Success!!</strong>
+            <p>Success success success success!!</p>
+        </div>
+        <div class="alert alert-info">
+            <strong>Alert Info!!</strong>
+            <p>Info info info info!!</p>
+        </div>
+
+
+        <div class="container">
+            <h2>Personal Details:</h2>
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="name">Name:</label>
+                    <div class=" col-sm-10">
+                        <input class="form-control" type="text" id="name" placeholder="Enter your name" >
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="email">Email:</label>
+                    <div class="col-sm-10">
+                        <input type="email" class="form-control" id="email" placeholder="Enter your mail id">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="phone">Phome Number:</label>
+                    <div class="col-sm-10">
+                        <input type="number" id="phone" class="form-control" placeholder="Enter your contact number">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                        <div class="checkbox">
+                            <label ><input type="checkbox">Remeber me</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                        <button class="btn btn-default">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="progress">
+            <div class="progress-bar progress-bar-primary progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" style="width: 50%;">
+                50%
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
